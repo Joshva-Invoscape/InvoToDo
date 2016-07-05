@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  ENV['INVOTODO_DATABASE_PASSWORD'] = 'T7cNKe-QsBR7KHf6Gg72VSk0wh'
+  
 end
